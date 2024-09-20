@@ -19,7 +19,7 @@ async function main() {
     } catch (e) {
         console.error(e);
         return {
-            "body": { "error": "There was a problem retrieving data." },
+            "body": { "error": "Ah, désolé : There was a problem retrieving data." },
             "statusCode": 400
         };
     } finally {
